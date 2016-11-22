@@ -1,0 +1,183 @@
+/*made in qiudongjie 2016-11-14*/
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.music{
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg.jpg) no-repeat 0 0;
+	background-size: 100% 100%;
+	position: relative;
+}
+/*made in 邱东杰*/
+.music .top{
+	width: 100%;
+	color: #2f2006;
+	text-align: center;
+	position: absolute;
+	top: 2.4rem;
+}
+.music .top h2{
+	font-size: 1.1rem;
+}
+.music .top h3{
+	font-size: 0.9rem;
+	margin-top:0.1rem;
+}
+.music .top .list{
+	width: 0.8rem;
+	height: 0.65rem;
+	position: absolute;
+	top: 12%;
+	left: 22%;
+	background: url(../img/menu.png) no-repeat;
+	background-size: 100% 100%;
+}
+.music .top .list .listbox{
+	/*border: 1px solid red;*/
+	width: 3.4rem;
+	height: 5.85rem;
+	z-index: 999;
+	background: url(../img/playlist.png) no-repeat 0 0px;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 126%;
+	left: -55%;
+}
+.music .top .list .listbox div{
+	width: 3.4rem;
+	height: 5.55rem;
+	position: absolute;
+	top: 4%;
+	left: 0%;
+	overflow: hidden;
+}
+.music .top .list .listbox div ul{
+	padding-top:0.2rem;
+	
+}
+.music .top .list .listbox div ul li{
+	font-size: 12px;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	margin-bottom: 0.4rem;
+}
+.music .content .photo{
+	width: 8rem;
+	height: 8rem;
+	border-radius: 50%;
+	position: absolute;
+	top: 5.6rem;
+	left: 50%;
+	margin-left: -4rem;
+	background: url(../img/around.png) no-repeat center;
+}
+.music .content .lyc{
+	width: 100%;
+	height: 6.95rem;
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 15rem;
+	overflow: hidden;
+	
+}
+.music .content .lyc .lycbox p{
+	text-align: center;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	font-size: 0.9rem;
+	margin-bottom: 1.5rem;
+}
+.music .bottom{
+	width: 100%;
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 70%;
+	left: 0%;
+}
+.music .bottom .progress{
+	margin: 0 auto;
+}
+.music .bottom .progress .startime{
+	float: left;
+	margin-left: 1.25rem;
+}
+.music .bottom .progress .progressbar{
+	display: block;
+	width: 65%;
+	height: 5px;
+	background: #91816d;
+	float:left;
+	margin-top:0.25rem ;
+	border-radius: 5px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -32.5%;
+}
+.music .bottom .progress .progressbar span{
+	display: block;
+	height: 5px;
+	width: 0px;
+	background: red;
+	border-radius:5px;
+}
+.music .bottom .progress .progressbar .progressbtn{
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*border: 1px solid red;*/
+	background: url(../img/btn.png) no-repeat;
+	background-size: 100% 100%;
+	background-position: 0% 0%;
+	display: block;
+	border-radius:50% ;
+	margin-top:-0.17rem;
+	margin-left: -0.225rem;
+	width: 0.55rem;
+	height: 0.55rem;
+}
+.music .bottom .progress .endtime{
+	float: right;
+	margin-right: 1.25rem;
+}
+.music .bottom .btn-box{
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	width: 7.2rem;
+	margin-left: -3.6rem;
+	margin-top:3rem;
+}
+.music .bottom .btn-box .play{
+	width: 2.375rem;
+	height: 2.385rem;
+	/*border: 1px solid red;*/
+	background: url(../img/playpause.png) no-repeat;
+	background-size: 100% 200%;
+	background-position: 0 0;
+	border-radius: 50%;
+	float: left;
+}
+.music .bottom .btn-box .prev, .music .bottom .btn-box .next{
+	width: 1.55rem;
+	height: 1.56rem;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.5rem;
+	background: url(../img/prevnext.png) no-repeat;
+	background-size:100% 206%;
+}
+.music .bottom .btn-box .prev{
+	margin-right:0.8rem;
+	background-position:0 0;
+}
+.music .bottom .btn-box .next{
+	float: right;
+	background-position:0 100%;
+}
+.nowP{
+	color: red;
+}

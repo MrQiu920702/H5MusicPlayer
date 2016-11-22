@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Kraus player</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/zepto.js" ></script>
+    <script type="text/javascript" src="js/touch.js" ></script>
+    <script type="text/javascript" src="js/fx.js" ></script>
+    <script type="text/javascript" src="js/index.js" ></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js" ></script>
+    <script>
+        (function(win,doc){
+            function change(){
+                doc.documentElement.style.fontSize=20*doc.documentElement.clientWidth/375+'px';
+            } 
+            change();
+            win.addEventListener('resize',change,false);
+        })(window,document);
+    </script>
+</head>
+<body>
+	<div class="music">
+		<div class="top">
+			<h2 class="songname"></h2><!--歌曲名字-->
+			<h3 class="singername"></h3><!--歌手名字-->
+			<div class="list">
+				<div class="listbox">
+					<div >
+						<ul class="songlist">
+							<li>123</li>
+							<li>456</li>
+							<li>789</li>
+							<li>123</li>
+							<li>456</li>
+							<li>789</li>
+							<li>123</li>
+							<li>456</li>
+							<li>789</li>
+							<li>123</li>
+							<li>456</li>
+							<li>789</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="photo"></div><!--旋转图片-->
+			<div class="lyc">
+				<div class="lycbox">
+					
+				</div>
+			</div><!--歌词-->
+		</div>
+		<div class="bottom">
+			<div class="progress clearfix">
+				<span class="startime"></span>
+				<span class="progressbar">
+					<span></span>
+					<div class="progressbtn"></div>
+				</span>
+				<span class="endtime">00:00</span>
+			</div><!--进度条-->
+			<div class="btn-box clearfix">
+				<div class="prev"></div>
+				<div class="play"></div>
+				<div class="next"></div>
+			</div><!--按钮-->
+		</div>
+	</div>
+	<audio src="http://www.lelaijuchang.com/peacock/3/new.m4a" preload="none"></audio>
+	<audio src="http://www.lelaijuchang.com/peacock/3/zanmenjiehunba.mp3" preload="none"></audio>
+	
+</body>
+</html>

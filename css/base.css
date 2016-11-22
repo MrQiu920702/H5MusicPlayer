@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS layout */
+
+/* 默认样式 */
+body,div,ul,li,span,img,input,form{ margin:0; padding:0;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dd{ margin:0;}
+ul,ol{padding:0;}
+
+body{ font-size:12px; font-family:Tahoma,Helvetica,arial,sans-serif,"微软雅黑";}
+a{ text-decoration:none; color:#666666;}
+li{ list-style:none; }
+img{ border:none 0; display:block;}
+input{ outline:none; border:none; background:none;}
+input,textarea,select{ margin:0; }					
+input,textarea{ padding:0;}
+input::-ms-clear{display:none;}
+
+*{margin:0;padding:0;}
+a{text-decoration:none;color:#000;}
+b,strong{font-weight:normal;}
+i,em{font-style:normal;}
+ol li,ul li{list-style:none;}
+/* 浮动公共样式 */
+.left{ float:left; _display:inline; }
+.right{ float:right; _display:inline; }
+.clearfix:after{ display:block; content:''; clear:both;}
+.clearfix{ zoom:1;}
+
+
+ 
+ 
